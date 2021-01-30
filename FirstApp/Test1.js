@@ -6,7 +6,7 @@ const port = 3000;
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
   res.setHeader('Content-Type', 'text/plain');
-  res.end('');
+  res.end('I am Renato Bucao Jr. From GSC 2nd Year BSIT \n \n WELCOME TO MAY APP \n \n Hello World');
 });
 
 server.listen(port, hostname, () => {
